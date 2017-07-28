@@ -93,9 +93,8 @@ My model results were:
 * validation set accuracy of 0.94 
 * test set accuracy of 0.926
 
-If a well known architecture was chosen:
-* LeNet architecture was chose
-* It is believed to be relevant to the traffic sign application because the initial result is already around 89%. This gives confidence to the structure.
+Approach chosen to come up with this architecture is to choose starting from LeNet architecture instead of iteratively finding one. The initial validation accuracy is 89%. After applying grayscaling, normalization on the images during pre-process stage, the accuracy has already reached 93%.
+* The reason I  believed LeNet architecture to be relevant to the traffic sign application is because it has the building blocks for all convolutional neural networks: convolution unit, ReLUs, pooling and fully connected layer. It is however pretty shallow, but for this task of achieving 93% accuracy, which is pretty low, it is sufficient.
 * The model's accuracy on the training, validation and test set provide evidence that the model is working well. This is shown especially by close numbers of validation and test accuracies. 
  
 
